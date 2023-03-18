@@ -56,6 +56,7 @@ p {
     top: 50%;
     left: 50%;
     width: 90%;       /* to enable (from top to trasform) i canceled .shadow-pop-br properities */
+    height: 85%;
     padding: 40px;
     transform: translate(-50%,-50%);
     background: rgba(0,0,0,.5);
@@ -70,8 +71,9 @@ p {
 @media (max-width: 767px) {
     .container {
         display: block;
-        height: 186%;
-        margin-top: 534px;
+        min-height: 189%;
+        top: 99%;
+        /* margin-top: 534px; */
         padding: 40px 5px 0;
     }
 
