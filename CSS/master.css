@@ -71,8 +71,8 @@ p {
 @media (max-width: 767px) {
     .container {
         display: block;
-        min-height: 215%;
-        top: 118%;
+        min-height: 190%;
+        top: 106%;
         /* margin-top: 534px; */
         padding: 40px 5px 0;
     }
