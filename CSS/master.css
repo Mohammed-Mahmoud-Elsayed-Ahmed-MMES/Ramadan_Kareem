@@ -28,16 +28,18 @@ body {
     background-image: url("../Images/—Pngtree—ramadan\ kareem\ islamic\ background\ banner_1720785.jpg");
     background-size: cover;
 }
+
 h2 {
     font-size: 60px;
     color: #572b0c;
 }
 @media (max-width: 767px) {
     h2 {
-        font-size: 51px;
+        font-size: 49px;
+        padding-top: 13px;
     }
-
 }
+
 .bounce-in-top {
 	-webkit-animation: bounce-in-top 1.1s both;
 	animation: bounce-in-top 1.1s both;
