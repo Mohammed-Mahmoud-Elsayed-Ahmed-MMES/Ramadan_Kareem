@@ -28,7 +28,6 @@ body {
     background-image: url("../Images/—Pngtree—ramadan\ kareem\ islamic\ background\ banner_1720785.jpg");
     background-size: cover;
 }
-
 h2 {
     font-size: 60px;
     color: #572b0c;
@@ -36,7 +35,13 @@ h2 {
 @media (max-width: 767px) {
     h2 {
         font-size: 49px;
+        font-weight: bold;
         padding-top: 13px;
+    }
+}
+@media (max-width: 290px) {
+    h2 {
+        font-size: 41px;
     }
 }
 
@@ -79,13 +84,25 @@ p {
 @media (max-width: 767px) {
     .container {
         display: block;
-        min-height: 205%;
-        top: 116%;
+        min-height: 220%;
+        top: 124%;
         /* margin-top: 534px; */
         padding: 40px 5px 0;
     }
-
 }
+
+@media (max-width: 400px) {
+    .container {
+        min-height: 205%;
+        top: 116%;
+    }
+} 
+@media (max-width: 360px) {
+    .container {
+        min-height: 208%;
+        top: 119%;
+    }
+} 
 
 /* Start Header */
 header {
@@ -581,6 +598,11 @@ button:hover .button-text {
 @media (max-width: 395px) {
     .contact {
         left:  20%;
+    }
+} 
+@media (max-width: 290px) {
+    .contact {
+        left:  14%;
     }
 } 
 .wrapper {
