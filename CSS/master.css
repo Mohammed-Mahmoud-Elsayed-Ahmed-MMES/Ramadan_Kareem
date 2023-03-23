@@ -122,8 +122,11 @@ header {
 }
 @media (max-width: 767px) {
     .love {
-        margin-left: 43px;
-        left: 0px;
+        position: absolute;
+        /* margin-left: 48%; */
+        top: 15%;
+        /* margin-bottom: 38%; */
+        left: 50%;
     }
 
 }
